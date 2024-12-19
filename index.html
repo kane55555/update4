@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Takeoffilms LLC - Elevate Your Image</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #000;
+            color: #fff;
+            line-height: 1.6;
+        }
+
+        /* Header */
+        header {
+            background-color: #111;
+            padding: 2rem;
+            text-align: center;
+        }
+        header img {
+            width: 100%;
+            max-width: 400px;
+        }
+
+        /* Section Styles */
+        section {
+            padding: 4rem 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            font-weight: 600;
+            margin-bottom: 2rem;
+            color: #f5f5f5;
+        }
+
+        /* Services */
+        .service-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            gap: 2rem;
+        }
+        .service {
+            background-color: #1a1a1a;
+            border: 1px solid #333;
+            border-radius: 10px;
+            width: 30%;
+            padding: 1.5rem;
+            text-align: center;
+            transition: transform 0.3s ease-in-out;
+        }
+        .service:hover {
+            transform: scale(1.05);
+        }
+        .service h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: #e6e6e6;
+        }
+        .service p {
+            font-size: 1rem;
+            color: #ccc;
+            margin-bottom: 1rem;
+        }
+        .service a {
+            display: inline-block;
+            padding: 0.5rem 1rem;
+            color: #fff;
+            background-color: #444;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: 600;
+            transition: background-color 0.3s ease;
+        }
+        .service a:hover {
+            background-color: #666;
+        }
+
+        /* Catalogue Button */
+        .catalogue-button {
+            display: flex;
+            justify-content: center;
+            margin-top: 1rem;
+        }
+        .catalogue-button a {
+            display: inline-block;
+            padding: 1rem 2rem;
+            background-color: #444;
+            color: #fff;
+            font-weight: 600;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .catalogue-button a:hover {
+            background-color: #666;
+        }
+
+        /* Video Embed */
+        .video-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 2rem;
+        }
+        iframe {
+            border: none;
+            width: 80%;
+            height: 500px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 2rem;
+            background-color: #111;
+            color: #bbb;
+        }
+        footer a {
+            color: #999;
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.3s;
+        }
+        footer a:hover {
+            color: #fff;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .service {
+                width: 100%;
+            }
+            iframe {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <img src="Untitled-13.png" alt="Header Logo">
+    </header>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2>Our Packages</h2>
+        <div class="service-container">
+            <div class="service">
+                <img src="red logo.png" alt="Red Logo" style="width:100%; max-width:150px; margin-bottom:1rem;">
+                <h3>Red Package</h3>
+                <a href="red_package.html">Select Package</a>
+            </div>
+            <div class="service">
+                <img src="yellow logo.png" alt="Gold Logo" style="width:100%; max-width:150px; margin-bottom:1rem;">
+                <h3>Gold Package</h3>
+                <a href="gold_package.html">Select Package</a>
+            </div>
+            <div class="service">
+                <img src="Untitled-13.png" alt="Classic Logo" style="width:100%; max-width:150px; margin-bottom:1rem;">
+                <h3>Classic Package</h3>
+                <a href="classic_package.html">Select Package</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <h2>Our Catalogue</h2>
+        <div class="catalogue-button">
+            <a href="https://www.youtube.com/playlist?list=PLPWrBTTrX8jhvmpP63GWXfIlOaR6FqYtr" target="_blank">
+                View Full Catalogue
+            </a>
+        </div>
+        <!-- Video Embed -->
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/videoseries?list=PLPWrBTTrX8jhvmpP63GWXfIlOaR6FqYtr" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Email: <a href="mailto:submissions@takeoffilms.com">submissions@takeoffilms.com</a></p>
+        <p>Instagram: <a href="https://instagram.com/_Takeoffilms_" target="_blank">@_Takeoffilms_</a></p>
+        <p>&copy; 2024 Takeoffilms LLC</p>
+    </footer>
+</body>
+</html>
